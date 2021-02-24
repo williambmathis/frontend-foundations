@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +11,7 @@
     <header>
         <div class = "Name"><h1>William Mathis</h1></div>
 
+        <div class = "item">
         <nav>
             <ul id="menu">
                 <li><a href="#intro">Intro</a></li>
@@ -18,23 +20,24 @@
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
 <main>
-    <section class= "intro">
+    <section class= "intro" id="intro">
         <div class = "group">
         <div class ="item">
             <h2>I'm William Mathis, welcome to my page!</h2>
         </div>
 
         <div class="item">
-            <p>My name is William Mathis, I am a full stack software engineering student at Thinkful, I am currently located in San Diego, California.
-            I love to code and I think I can be a great addition to any team, I value good code, teamwork and a cohesive work team.</p>
+            <p>My name is William Mathis I am a full stack software engineering student at Thinkful, I am currently located in San Diego, California.
+            I love to code and I think I can be a great addition to any team. I value good code, teamwork, and a cohesive work team.</p>
         </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class= "group">
         <div class="item">
             <h2>About me</h2>
@@ -51,7 +54,7 @@
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id = "contact">
         
         <div class= "group">
         
@@ -69,11 +72,12 @@
         
             <div class ="item">
             <h3>Send me a message!</h3>
+            <p>My email address is Wbmathi@g.clemson.edu</p>
             <form action="https://formspree.io/f/mjvpdnez" method="post">
                 <label for="name">Name:</label>
                 <input id="name" type="text" name="Name">
       
-                <label for="email">Email:</label>
+                <label for="email">Your email:</label>
                 <input id="email" type="text" name="Email">
       
                 <label for="user-message">Message:</label>
@@ -81,12 +85,15 @@
                 <button type="submit">Submit</button>
             </form>
             </div>
+
+            </div>
+
         
         
         
     </section>
 
-    <section class = "projects">
+    <section class = "projects" id ="projects">
         
         <div class = group>
             <div class ="item">
@@ -94,7 +101,7 @@
             </div>
             <div class = "item">
                 <h3>Decoder Ring</h3>
-                <p>This is an app that takes a users input and decodes or encodes it depending on what the user selects. This app was primarily a backend project, I used JavScript primarily
+                <p>This is an app that takes a users input and decodes or encodes it depending on what the user selects. This app was primarily a backend project, I used JavaScript primarily
                     on this project. 
                     In this project I learned how to implement a backend that interacts cleanly with the frontend. This project also
                     taught me how to code using TDD(test driven development), attached 

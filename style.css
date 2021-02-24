@@ -27,6 +27,8 @@ main h2{
 }
 .name{
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 header h1 {
@@ -35,11 +37,15 @@ header h1 {
     margin: 10px;
 
 }
+header nav{
+    display: inline flex;
+}
 
 header nav ul{
-    display: flex;
+    display: inline flex;
     text-decoration: none;
     list-style: none;
+    
 }
 
 header nav ul li{
