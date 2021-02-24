@@ -3,11 +3,12 @@ body{
     flex-direction: column;
     margin: 0;
     background-color: #EFF6EE;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
 header{
-    background-color: #FB9F89;
+    background-color: #F4D1AE;
     display: flex;
     
     justify-content: space-between;
@@ -61,9 +62,12 @@ header nav ul li a{
     
     margin: 10px;
 }
-
+img{
+    width: 40%;
+    
+}
 footer{
-    background-color: #FB9F89;
+    background-color: #F4D1AE;
     justify-content: center;
     align-items: center;
 }
